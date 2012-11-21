@@ -1,0 +1,13 @@
+CPAN_AUTHOR=adamk
+inherit perl
+
+NAME="perl-PPI"
+VERSION=1.215
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl parser module"
+DESCRIPTION="The purpose of PPI is not to parse Perl *code*, but to parse Perl
+*documents*. By treating the problem this way, we are able to parse a single
+file containing Perl source code isolated from any other resources, such as
+libraries upon which the code may depend, and without needing to run an
+instance of perl alongside or inside the parser."
